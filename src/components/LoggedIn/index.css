@@ -1,0 +1,29 @@
+#loggedInContainer {
+  /* background-color: white; */
+  width: 33vw;
+  height: 10vh;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  text-align-last: center;
+  overflow: hidden;
+}
+
+#loggedIn-inner {
+  width: 33vw;
+  text-align: center;
+  margin-right: 33%;
+  margin-left: 33%;
+  margin-top: 2%;
+}
+
+img {
+  width: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+#logout-button:hover {
+  background-color: rgba(243, 93, 93, 0.1);
+}

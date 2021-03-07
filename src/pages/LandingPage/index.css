@@ -1,0 +1,163 @@
+:root {
+  /* --main-background: #0a182a; */
+  --main-background: #202020;
+  --text-color-white: #f7fafc;
+  --pink: #e47df0;
+  --twitter: #1da1f2;
+}
+
+* {
+  color: var(--text-color-white);
+  overflow: hidden;
+}
+
+#feature {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 10%;
+  bottom: 33%;
+  height: auto;
+  font-size: 10em;
+  letter-spacing: 10px;
+  font-weight: bolder;
+  background-image: linear-gradient(
+    90deg,
+    var(--pink),
+    var(--pink),
+    var(--text-color-white)
+  );
+  background-clip: text;
+}
+
+#info {
+  font-size: 1.25em;
+  animation: 2s fade ease-in forwards;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#feature:hover {
+  cursor: default;
+}
+
+.featureLetter {
+  text-align: center;
+  display: inline-block;
+  color: var(--text-color-white);
+}
+
+#twitter {
+  color: var(--twitter);
+}
+
+#logo {
+  position: relative;
+  top: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 33%;
+  animation: 2s fade ease-in forwards;
+}
+
+.featureLetter:hover {
+  transition: 0.5s all;
+  animation: 1s wobble ease-in forwards;
+  opacity: 0.7;
+  transform: rotateZ(0deg);
+}
+
+.featureLetter:not(:hover) {
+  animation: 1s wobble ease-out forwards;
+}
+@keyframes wobble {
+  0% {
+    color: var(--text-color-white);
+    transform: rotateZ(0deg);
+  }
+
+  50% {
+    transform: rotateZ(33deg);
+    padding: 10px;
+  }
+
+  75% {
+    transform: rotateZ(-33deg);
+    padding: 50px;
+  }
+
+  100% {
+    transform: rotateZ(-370deg);
+    color: var(--pink);
+    padding: 10px;
+  }
+}
+
+#container {
+  padding: 15px;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background-color: var(--main-background);
+}
+
+.header-text {
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 512px;
+  height: 512px;
+  margin-top: 150px;
+}
+
+.link {
+  text-decoration: underline;
+  font-weight: lighter;
+  color: #e2e1e1;
+}
+
+.link:hover {
+  color: #92d3ff;
+}
+
+.footer {
+  text-align: center;
+  height: auto;
+  padding: 5px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  font-weight: bold;
+}
+
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s
+    infinite;
+}
+
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
