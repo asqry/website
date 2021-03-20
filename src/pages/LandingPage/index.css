@@ -34,6 +34,7 @@
 #info {
   font-size: 1.25em;
   animation: 2s fade ease-in forwards;
+  margin-top: 50px;
 }
 
 @keyframes fade {
@@ -53,7 +54,31 @@
 .featureLetter {
   text-align: center;
   display: inline-block;
-  color: var(--text-color-white);
+}
+
+#a {
+  transform: rotateZ(-350deg) translateY(-21px);
+  color: #c7665f;
+}
+
+#s {
+  color: #5fc769;
+  transform: rotateZ(-390deg) translateY(12px);
+}
+
+#q {
+  color: #79c2d9;
+  transform: rotateZ(-350deg) translateY(-30px);
+}
+
+#r {
+  color: #a57cde;
+  transform: rotateZ(-390deg) translateY(25px);
+}
+
+#y {
+  color: #e8f07f;
+  transform: rotateZ(-350deg) translateY(-21px);
 }
 
 #twitter {
@@ -96,8 +121,8 @@
   }
 
   100% {
-    transform: rotateZ(-370deg);
-    color: var(--pink);
+    /* transform: rotateZ(-370deg); */
+    /* color: var(--pink); */
     padding: 10px;
   }
 }
@@ -114,15 +139,6 @@
   font-size: 5rem;
   font-weight: bold;
   text-align: center;
-}
-
-.logo {
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  width: 512px;
-  height: 512px;
-  margin-top: 150px;
 }
 
 .link {
@@ -143,21 +159,4 @@
   position: absolute;
   bottom: 0px;
   font-weight: bold;
-}
-
-.react-rotating-text-cursor {
-  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s
-    infinite;
-}
-
-@keyframes blinking-cursor {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
 }

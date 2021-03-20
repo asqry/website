@@ -17,11 +17,21 @@ export function LandingPage(props) {
     <div id="container">
       <h1 className="header-text">hey, I'm</h1>
       <h1 id="feature">
-        <h2 className="featureLetter">A</h2>
-        <h2 className="featureLetter">S</h2>
-        <h2 className="featureLetter">Q</h2>
-        <h2 className="featureLetter">R</h2>
-        <h2 className="featureLetter">Y</h2>
+        <h2 className="featureLetter" id="a">
+          A
+        </h2>
+        <h2 className="featureLetter" id="s">
+          S
+        </h2>
+        <h2 className="featureLetter" id="q">
+          Q
+        </h2>
+        <h2 className="featureLetter" id="r">
+          R
+        </h2>
+        <h2 className="featureLetter" id="y">
+          Y
+        </h2>
       </h1>
       <br />
       <br />
@@ -32,11 +42,8 @@ export function LandingPage(props) {
           Web/Backend Developer, Designer, and "Professional" unprofessional.
         </h3>
       </div>
-      <div id="logo">
-        <img src={logo} alt="discord, JS, twitch" />
-      </div>
       <div className="footer">
-        &copy; asqry {year('yyyy')}
+        &copy; asqry {year('yyyy')} 💖
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a className="link" href="/twitter" target="_blank">
           <FontAwesomeIcon icon={faTwitter} />
