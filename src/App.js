@@ -6,22 +6,36 @@ function App() {
   document.title = 'asqry';
   return (
     <Switch>
-      <Route path="/" exact={true} component={LandingPage} />
+      <Route path='/' exact={true} component={LandingPage} />
       <Route
-        path="/twitter"
+        path='/twitter'
         component={() => {
           window.location.href = 'https://twitter.com/asqrybot';
           return null;
         }}
       />
       <Route
-        path="/github"
+        path='/github'
         component={() => {
           window.location.href = 'https://github.com/seekeroftacos';
           return null;
         }}
       />
-      <Route path="/view" exact={true} component={ViewPage} />
+      <Route
+        path='/discord'
+        component={() => {
+          window.location.href = 'https://discord.gg/AMVnGX5gqs';
+          return null;
+        }}
+      />
+      <Route
+        path='/twitch'
+        component={() => {
+          window.location.href = 'https://twitch.tv/asqrybot';
+          return null;
+        }}
+      />
+      <Route path='/view' exact={true} component={ViewPage} />
     </Switch>
   );
 }
