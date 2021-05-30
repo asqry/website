@@ -3,4 +3,4 @@ services:
   asqrysite:
     build: .
     ports:
-      - '9274:9274'
+      - '6969:6969'
