@@ -13,11 +13,16 @@ import './index.css';
 import logo from './img/logo.svg';
 
 export function LandingPage(props) {
+
+    
+
   return (
     <div id="container">
       <h1 className="header-text">hey, I'm</h1>
       <h1 id="feature">
-        <h2 className="featureLetter" id="a">
+        <h2 className="featureLetter" id="a" onClick={() => {
+          window.open("http://pigtoots.xyz/yes")
+        }}>
           A
         </h2>
         <h2 className="featureLetter" id="s">
@@ -39,7 +44,7 @@ export function LandingPage(props) {
       <br />
       <div id="info">
         <h3>
-          Web/Backend Developer, Designer, and "Professional" unprofessional.
+          web designer, developer, and "professional" unprofessional. <br />i cannot hack facebook :(
         </h3>
       </div>
       <div className="footer">
@@ -54,5 +59,7 @@ export function LandingPage(props) {
         </a>
       </div>
     </div>
+
+    
   );
 }

@@ -1,9 +1,8 @@
 :root {
-  /* --main-background: #0a182a; */
-  --main-background: #202020;
-  --text-color-white: #f7fafc;
-  --pink: #e47df0;
-  --twitter: #1da1f2;
+  --main-background: #2E3440;
+  --text-color-white: #E5E9F0;
+  --pink: #B48EAD;
+  --twitter: #5E81AC;
 }
 
 * {
@@ -58,26 +57,26 @@
 
 #a {
   transform: rotateZ(-350deg) translateY(-21px);
-  color: #ca736c;
+  color: #A3BE8C;
 }
 
 #s {
-  color: #5fc769;
+  color: #BF616A;
   transform: rotateZ(-390deg) translateY(12px);
 }
 
 #q {
-  color: #79c2d9;
+  color: #88C0D0;
   transform: rotateZ(-350deg) translateY(-30px);
 }
 
 #r {
-  color: #a57cde;
+  color: #B48EAD;
   transform: rotateZ(-390deg) translateY(25px);
 }
 
 #y {
-  color: #e8f07f;
+  color: #EBCB8B;
   transform: rotateZ(-350deg) translateY(-21px);
 }
 
@@ -144,11 +143,11 @@
 .link {
   text-decoration: underline;
   font-weight: lighter;
-  color: #e2e1e1;
+  color: #D8DEE9;
 }
 
 .link:hover {
-  color: #92d3ff;
+  color: #5E81AC;
 }
 
 .footer {
