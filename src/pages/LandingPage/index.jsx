@@ -44,7 +44,7 @@ export function LandingPage(props) {
       <br />
       <div id="info">
         <h3>
-          web designer, developer, and "professional" unprofessional. <br />i cannot hack facebook :(
+          web designer, developer, and "professional" unprofessional. <br />professional breaker of things! 🔨
         </h3>
       </div>
       <div className="footer">

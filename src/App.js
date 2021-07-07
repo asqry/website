@@ -1,3 +1,5 @@
+/** @format */
+
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import { LandingPage, ViewPage } from './pages';
@@ -17,7 +19,7 @@ function App() {
       <Route
         path='/github'
         component={() => {
-          window.location.href = 'https://github.com/seekeroftacos';
+          window.location.href = 'https://github.com/asqry';
           return null;
         }}
       />
